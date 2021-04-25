@@ -1,21 +1,16 @@
 /* ==================
-fonts
-================= */
-@import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel");
-
-/* ==================
 variables
 ================= */
 
 :root {
-  --primary-clr: rgb(7, 205, 7);
-  --primary-light: rgb(64, 110, 64);
+  --primary-clr: #028090;
+  --primary-light: #007f5f;
   --grey-dark: rgb(37, 35, 35);
   --grey-light: rgba(107, 104, 104, 0.382);
   --grey-3: rgb(201, 196, 196);
   --white-clr: #fff;
   --ff-primary: "Catamaran", sans-serif;
-  --ff-secondary: "Grand Hotel", cursive;
+  --ff-secondary: "Bangers", cursive;
   --transition: all 0.4s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -101,6 +96,7 @@ more global css
   cursor: pointer;
   box-shadow: 0.5px 3px 3px rgba(9, 8, 8, 0.63);
   letter-spacing: 0.3rem;
+  border-radius: 15px;
 }
 .button:hover {
   background: var(--primary-clr);
@@ -227,7 +223,7 @@ header
   min-height: 100vh;
   min-width: 100vw;
   background: linear-gradient(rgba(24, 22, 22, 0.706), rgba(0, 0, 0, 0.416)),
-    url("../images/pexels-pixabay-259955.jpg") bottom/cover no-repeat fixed;
+    url("../images/herbal-tea-1410565_640.jpg") bottom/cover no-repeat fixed;
   position: relative;
   /* animation */
   overflow-x: hidden;
@@ -470,7 +466,6 @@ header
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--white-clr);
-  text-transform: uppercase;
 }
 .social-media {
   bottom: -10%;
